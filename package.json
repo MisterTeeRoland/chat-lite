@@ -2,11 +2,14 @@
   "name": "chat-lite",
   "version": "1.0.0",
   "engines": {
-    "node": "6.11.1"  
+    "node": "6.11.1"
   },
   "description": "A simple socket.io application for learning purposes",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
