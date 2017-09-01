@@ -1,3 +1,4 @@
+require('ssl-root-cas').inject();
 var express = require('express');
 var socket = require('socket.io');
 
@@ -22,7 +23,7 @@ io.on('connection', function(socket) {
         io.sockets.emit("chat", data);
     });
 
-    //if the user is typing, broadcast to all other listening sockets (that aren't the user's) 
+    //if the user is typing, broadcast to all other listening sockets (that aren't the user's)
     socket.on("typing", function(data) {
         socket.broadcast.emit("typing", data);
     });
