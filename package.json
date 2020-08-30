@@ -8,7 +8,9 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.15.4",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.0.3",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31"
   },
   "devDependencies": {},
   "scripts": {
