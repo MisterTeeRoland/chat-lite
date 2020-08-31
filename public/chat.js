@@ -9,7 +9,7 @@ var socket = io.connect();
 // Query DOM
 var message = document.getElementById("message");
 var handle = document.getElementById("handle");
-var btn = document.getElementById("send");
+var button = document.getElementById("send");
 var output = document.getElementById("output");
 var feedback = document.getElementById("feedback");
 
@@ -20,7 +20,7 @@ console.log(user_tz);
 
 
 // Emit events
-btn.addEventListener("click", function() {
+button.addEventListener("click", function() {
     sendMessage();
 });
 
