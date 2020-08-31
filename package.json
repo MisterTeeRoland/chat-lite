@@ -7,14 +7,14 @@
   "description": "A simple socket.io application for learning purposes",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.15.4",
-    "socket.io": "^2.0.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
     "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.31",
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
   },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
