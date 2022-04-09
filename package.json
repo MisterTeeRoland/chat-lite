@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.4.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2"
